@@ -1,0 +1,118 @@
+
+body{
+    background-color: rgba(213, 212, 212, 0.871);
+    position: relative;
+   
+}
+form{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, 20%); 
+    margin: 100px;
+    padding: 30px;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgb(158, 154, 154);
+   
+    min-width: 430px;
+    max-width: 430px;
+    max-height: 450px;
+    
+}
+#one{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(81, 79, 79);
+    
+}
+#username{
+    font-size: 17px;
+    height: 20px;
+    width: 91%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+#password{
+    font-size: 17px;
+    height: 20px;
+    width: 91%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    
+
+}
+#login{
+    margin-top: 10px;
+    font-size: 18px;
+    background-color:rgba(19, 117, 13,0.8);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    width: 80px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+#login:hover{
+    background-color:rgba(19, 117, 13,1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+a{
+    color: green;
+    font-size: 17px;
+    text-decoration: none;
+   
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: green;
+    
+     
+}
+
+#ruleone{
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=button]{
+    background-color: rgb(214, 211, 211);
+    border: none;
+    width: auto;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgba(55, 53, 53, 0.9);
+    font-size: 15px;
+    margin-top: 10px;
+}
+input[type=button]:hover{
+    background-color: rgba(194, 185, 185, 0.8);
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+input[type=button]#help{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type=button]#help:hover{
+    background-color: rgb(161, 155, 155);
+}
